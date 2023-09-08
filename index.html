@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    
+    </head>
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+        <img src="Images/logo_2.jpg" alt="logo" height=70px width=90px class="logo1">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mg-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#popular">Popular</a>
+        </li>
+        <li class="nav-item">
+            <!-- <a class="nav-link" href="#Services">Services</a> -->
+            <a class="nav-link" href="#blog">Services</a>
+        </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#reviews">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Review</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#">Questions</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link btn text-white bg-dark px-3" href="contact.html">Contact Us</a>
+          </li>  
+      </ul> 
+    </div>
+  </div>
+</nav>
+<div id="carouselExampleAutoplaying" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="Images/interior_3.jpg" class="d-block w-100-height" alt="img1">
+
+      <div class="carousel-caption carousel">
+        <p>1 / 3</p>
+        <h5>Discover Property <br> More Easily</h5>
+        <div class="mt-5 d-flex">
+          <input type="text" class="form-control search w-50" id="floatinput"
+          placeholder="Search...">
+
+          <button class="btn btn-light btn-sm justify-content-md-end mx-2 px-3">
+            <i class="fa fa-search" aria-hidden="true"></i> Search</button>
+          </div>
+        </div>
+      </div>
+    
+        <div class="carousel-item">
+        <img src="Images/interior_2.jpg" class="d-block w-100-height" alt="img1">
+      
+        <div class="carousel-caption carousel">
+          <p>2 / 3</p>
+          <h5>Global Homes<br> For our Future<br> Generation</h5>
+          <p><a href="#" class="btn btn-light btn-lg mt-3">Discover More</a></p>
+        </div>
+      </div>
+        <div class="carousel-item">
+          <img src="Images/interior_1.jpg" class="d-block w-100-height" alt="img1">
+        <!-- </div> -->
+          <div class="carousel-caption carousel">
+            <p>3 / 3</p>
+            <h5>Property Buying <br> and Selling<br> Guides</h5>
+            <p><a href="#" class="btn btn-light btn-lg mt-3">Discover More</a></p>
+        </div>
+      </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="icon">&larr;</span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="icon">&rarr;</span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<div class="col-md-4 z-1 position absolute card-bottom card mb-3 card-color bg-dark">
+  <div class="row align-items-center">
+
+    <div class="col-md-9">
+      <div class="card-body">
+        <h5 class="card-title text-light">Card title</h5>
+        <p class="card-text text-light">This is a wider card with supporting text below as a natural lead-in to additional content. </p>
+        <p class="card-text"><small class="text-white">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <img src="Images/image_1.jpg" class="img-fluid rounded-start" alt="image1">
+    </div>
+  </div>
+</div>
+
+<!-- <popular> -->
+<section class="container" style="margin-top:100px" id="popular">
+
+  <p class="pt-5">Popular</p>
+  <div class="d-felx">
+    <h2>Our Popular Residence</h2>
+    <h6 class="ms-auto">Explore All <span class="arrow-icon">&rarr;</span></h6>
+  </div>
+  
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-2">
+    <div class="col">
+      <div class="card border-0">
+        <img src="Images/image_1.jpg" class="card-img-top" alt="image_1">
+        <div class="card-body">
+          <p class="card-text text-muted"> Delhi, India</p>
+
+          <div class="d-flex justify-content-center mt-3">
+            <p class="mx-4 text-muted card-text"><i class="fa fa-bed"></i>Bed</p>
+            <p class="mx-4 text-muted card-text"><i class="fa fa-play"></i>8 x 8</p>
+            <p class="mx-4 text-muted card-text"><i class="fa fa-compass"></i>2000 m2</p>
+          </div>
+          <div class="d-flex my-2">
+            <button class="btn btn-lg text-white bg-dark px-4">Book Now</button>
+            <h5 class="my-auto ms-auto"> $ 25,00,000</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card border-0">
+        <img src="Images/image_4.jpg" class="card-img-top" alt="image_1">
+        <div class="card-body">
+          <p class="card-text text-muted"> Chennai, India</p>
+
+          <div class="d-flex justify-content-center mt-3">
+            <p class="mx-4 text-muted card-text"><i class="fa fa-bed"></i>Bed</p>
+            <p class="mx-4 text-muted card-text"><i class="fa fa-play"></i>8 x 8</p>
+            <p class="mx-4 text-muted card-text"><i class="fa fa-compass"></i>2000 m2</p>
+          </div>
+          <div class="d-flex my-2">
+            <button class="btn btn-lg text-white bg-dark px-4">Book Now</button>
+            <h5 class="my-auto ms-auto"> $ 50,00,000</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card border-0">
+        <img src="Images/image_3.jpg" class="card-img-top" alt="image_1">
+        <div class="card-body">
+          <p class="card-text text-muted"> Ahemdabad, India</p>
+
+          <div class="d-flex justify-content-center mt-3">
+            <p class="mx-4 text-muted card-text"><i class="fa fa-bed"></i>Bed</p>
+            <p class="mx-4 text-muted card-text"><i class="fa fa-play"></i>8 x 8</p>
+            <p class="mx-4 text-muted card-text"><i class="fa fa-compass"></i>2000 m2</p>
+          </div>
+          <div class="d-flex my-2">
+            <button class="btn btn-lg text-white bg-dark px-4">Book Now</button>
+            <h5 class="my-auto ms-auto"> $ 25,00,000</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="bg-dark" style="margin-top: -15%" id="Services">
+
+  <div class="container pt-5">
+    <div class="row" style="margin-top:25%;">
+      <div class="col-lg-4">
+        <h2 style="color: #b5b5b5;"> Arya Patidar</h2>
+        <p style="color: #b5b5b5;">Founder JKT</p>
+      </div>
+      <div class="col-lg-8 mb-5">
+        <h6 class="lh-lg" style="color: #b5b5b5;">&ldquo;  Lorem Ipsum is simply dummy text of the printing and 
+          typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 
+          the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+          It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially 
+          unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+          and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</h6>
+      </div>
+    </div>
+    <hr clas="text-light">
+
+    <div class="container mt-5 pb-5">
+      <div class="row text-center">
+        <div class="col-md-3 col-sm-6">
+          <img src="Images/logo1.png" alt="a" style="width:55%;">
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <img src="Images/logo2.png" alt="b" style="width:55%;">
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <img src="Images/logo3.png" alt="d" style="width:55%;">
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <img src="Images/logo4.png" alt="c" style="width:55%;">
+        </div>
+      </div>
+      <div>
+  </div>
+</section>
+
+<!-- <blog> -->
+<section class="about section-padding" style="margin-top: 40px;" id="blog">
+
+  <div class="text-center pb-5">
+    <h2> Our Services</h2>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5 col-md-12 col-12">
+        <div class="d-flex">
+          <div class="about-img mx-2">
+          <img src="Images/image_2.jpg" alt="about-image" class="img-fluid h-10 mt-4">
+        </div>
+
+        <!-- <div class="about-img">
+          <img src="Images/image_4.jpg" alt="about-image" class="img-fluid h-75">
+        </div> -->
+      </div>
+    </div>
+      <div class="col-lg-7 col-md-12 col-12 ps-lg-5 mt-md-5" style="margin-top: 40px;">
+        <div class="about-text">
+          <h2>Comfort is Our<br> Top Proiority for You</h2>
+          <p>Lorem Ipsum is simply dummy text of the printing and 
+            typesetting industry. Lorem Ipsum has been the industry's 
+            standard dummy text ever since 
+            the 1500s, when an unknown printer 
+            took a galley of type and scrambled it 
+            to make a type specimen book. 
+            It has survived not only five centuries, 
+            but also the leap into electronic typesetting, 
+            remaining essentially 
+            unchanged. It was popularised in the 1960s with 
+            the release of Letraset sheets containing Lorem 
+            Ipsum passages, 
+            and more recently with desktop publishing software
+            like Aldus PageMaker including versions of Lorem
+            Ipsum.</h6>
+        </p>
+        
+        <a href="#" class="btn text-white bg-dark px-3">See More</a>
+      </div>
+    </div>
+
+    <div> </div>
+  </div>
+  </div>
+
+</section>
+
+<!-- <reviews> -->
+<section class="container" style="margin-top :100px;" id="reviews">
+
+  <p class="pt-5">Blogs</p>
+  <div class="d-felx">
+    <h2>Latest Housing Information</h2>
+   <button class="btn text-white bg-dark px-4 btn-md ms-auto"> See All the Articles</button>
+  </div>
+  
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-2">
+    <div class="col">
+      <div class="card border-0">
+        <img src="Images/image_3.jpg" class="card-img-top" alt="image_1">
+        <div class="card-body">
+          <p class="card-text text-muted"> 04 April 2023</p>
+          <p class="card-text text-muted"> Lorem Ipsum is simply dummy text of the printing and 
+            typesetting industry.</p>
+            <button class="btn text-primary px-4 btn-lg" style="background: #d4e9ff;">Read More</button>
+            
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card border-0">
+        <img src="Images/image_4.jpg" class="card-img-top" alt="image_1">
+        <div class="card-body">
+          <p class="card-text text-muted"> 04 April 2023</p>
+          <p class="card-text text-muted"> Lorem Ipsum is simply dummy text of the printing and 
+            typesetting industry.</p>
+            <button class="btn text-primary px-4 btn-lg" style="background: #d4e9ff;">Read More</button>
+            
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col">
+      <div class="card border-0">
+        <img src="Images/image_7.jpg" class="card-img-top" alt="image_1">
+        <div class="card-body">
+          <p class="card-text text-muted"> 04 April 2023</p>
+          <p class="card-text text-muted"> Lorem Ipsum is simply dummy text of the printing and 
+            typesetting industry.</p>
+            <button class="btn text-primary px-4 btn-lg" style="background: #d4e9ff;">Read More</button>
+            
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- <review> -->
+<section class="bg-dark" style="margin-top:100px" id="contact">
+
+  <div class="container pt-5">
+    <div class="d-flex" style="margin-top: 40px;">
+      <h2 class="text-light">What Our Customer<br> Say About Us</h2>
+
+      <div class="ms-auto">
+        <button class="btn btn-md text-light"><span class="arrow-icon mx-2">&larr;</span></button>
+        <button class="btn btn-md text-light"><span class="arrow-icon mx-2">&rarr;</span></button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mx-auto row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 pb-5 mt-3"> 
+  <div class="card border-0 bg-transparent col-md-8">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="Images/team-1.png" class="img-fluid" alt="">
+      </div>
+      <div class="col-md-7">
+        <div class="card-body">
+          <h5 class="card-title text-light">Shreemanto Lahiri</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural
+             lead-in to additional content.</p>
+          <p class="card-text"><small class="text-light">Lead Engineer</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card border-0 bg-transparent">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="Images/team-2.png" class="img-fluid" alt="">
+      </div>
+      <div class="col-md-7">
+        <div class="card-body">
+          <h5 class="card-title text-light">Amar Singh</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural
+             lead-in to additional content.</p>
+          <p class="card-text"><small class="text-light">Design Head</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card border-0 bg-transparent">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="Images/team-3.png" class="img-fluid" alt="">
+      </div>
+      <div class="col-md-7">
+        <div class="card-body">
+          <h5 class="card-title text-light">Amit Shah</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural
+             lead-in to additional content.</p>
+          <p class="card-text"><small class="text-light">Management Head</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</section>
+
+<!-- <contact> -->
+
+  <section>
+    <div class="container mb-5">
+      <div class="col-md-12 col-lg-8" style="margin-top:150px;">
+        <h1 class="text-single"> Contact Us </h1>
+      </div>
+
+      <div class="contact mt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7">
+              <form>
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label for="your-name" class="form-label">Your Name </label>
+                    <input type="text" class="form-control" id="your-name" name="your-name" required>
+                  </div>
+
+                  <div class="col-md-6">
+                    <label for="your-surname" class="form-label">Your Surname </label>
+                    <input type="text" class="form-control" id="your-surname" name="your-surname" required>
+                  </div>
+
+                  <div class="col-md-6">
+                    <label for="your-email" class="form-label">Your Email </label>
+                    <input type="email" class="form-control" id="your-email" name="your-email" required>
+                  </div>
+
+                  <div class="col-md-6">
+                    <label for="your-subject" class="form-label">Your Subject </label>
+                    <input type="text" class="form-control" id="your-subject" name="your-subject" required>
+                  </div>
+
+                  <div class="col-md-12">
+                    <label for="your-message" class="form-label">Your Message </label>
+                    <textarea id="your-message" name="your-message" class="form-control" row="5" required></textarea>
+                  </div>
+
+                  <div class="mt-3 mb-5">
+                    <button class="btn text-white bg-dark px-3 btn-lg" type="submit"> Send Message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+            <div id="map" class="contact-map col-lg-5 mb-4">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117763.
+              67471091678!2d75.86384989999999!3d22.723972749999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
+              1!3m3!1m2!1s0x3962fcad1b410ddb%3A0x96ec4da356240f4!2sIndore%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1689268242991!5m2!1sen!2sin" 
+              width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+<!-- <footer> -->
+
+  <footer class="bg-dark bg-footer" style="margin-top: 80px">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-6">
+          <h5 class="text-light">About Us</h5>
+          <p class="text-light"> Lorem Ipsum is simply dummy text of the 
+            printing and typesetting industry. 
+          </p>
+          <p class="text-light"><i class="fa fa-location"></i>  56, Vijay Nagar, Indore</p>
+          <p class="text-light"><i class="fa fa-phone"></i>  +91 95566-66622</p>
+          <p class="text-light"><i class="fa fa-envelope"></i>  shree_real_estate01@gmail.com</p>
+        </div>
+
+        <div class="col-lg-3">
+          <h5 class="text-light"> Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Home</a></li>
+            <li><a href="#popular">Popular</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3">
+          <h5 class="text-light">Stay Connected</h5>
+          <ul class="list-unstyled">
+            <li><a href="#"><i class="fab fa-facebook"></i>  Facebook</a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i>  Instagram</a></li>
+            <li><a href="#"><i class="fab fa-linkedin"></i>  Linkedin</a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i>  Twitter</a></li>
+          </ul>
+        </div>
+        </div>
+        
+        <hr>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="text-center text-light">
+              Copyright &copy; 2023 <a href="#">Shree Real Estate co</a>. All Rights Reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    </body>
+</html>
